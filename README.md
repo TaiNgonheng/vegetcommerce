@@ -1,6 +1,6 @@
 # Laravel 9 & React js - Ecommerce application
 
-## Screenshots
+## Screenshots 
 
 ![preview img](/preview.png)
 
@@ -11,15 +11,11 @@ Clone the project
 ```bash
   git clone https://github.com/abdulaziz-m5u/ecommerce-youtube.git project-name
 ```
-
 Go to the project directory
-
 ```bash
   cd project-name
 ```
-
 -   Copy .env.example file to .env and edit database credentials there
-
 ```bash
     composer install
 ```
@@ -30,7 +26,7 @@ Go to the project directory
 
 ```bash
     php artisan artisan migrate:fresh --seed
-```
+```[AdminSeeder.php](database/seeders/AdminSeeder.php)
 
 ```bash
     php artisan storage:link
